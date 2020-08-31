@@ -1,0 +1,46 @@
+body {
+  font-family: "Franklin Gothic", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  color: white;
+  margin-left: 10px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.nav-item {
+  color: white;
+  margin: 0 30px;
+}
+
+/* First section of the page */
+.row{
+  margin-left: 7.5rem;
+  margin-right: 7.5rem;
+}
+
+.hometext {
+  font-family: 'Work Sans', sans-serif;
+  margin: 8% 0 0;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.sectionOneText {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.image{
+  margin-top: 6.5rem;
+  margin-left: 3.5rem;
+  width: 80%;
+}
+
+/* Section Two start */

@@ -7,6 +7,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Navigation Bar */
+.logo{
+  width: 4em;
+}
 .navbar-brand {
   color: white;
   margin-left: 10px;
@@ -20,27 +23,110 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* First section of the page */
-.row{
-  margin-left: 7.5rem;
-  margin-right: 7.5rem;
+@media only screen and (min-width: 1200px) {
+  .row {
+    margin-left: 5.5em;
+    margin-right: 3.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 8% 0 0;
+    font-weight: bold;
+    font-size: 4em;
+  }
+
+  .image{
+    margin: 7.5em auto 0 5.5em;
+    width: 75%;
+  }
+
+  .sectionOneText {
+    font-size: 17px;
+    font-weight: normal;
+  }
 }
 
-.hometext {
-  font-family: 'Work Sans', sans-serif;
-  margin: 8% 0 0;
-  font-weight: bold;
-  font-size: 4rem;
+@media only screen and (max-width:1200px) {
+  .row {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 8% 0 0;
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .image{
+    margin: 7.5em auto 0 3.5em;
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  .row {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 6% 0 0;
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .image{
+    margin: 7.5em auto 0 3.5em;
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .row {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 6% 0 0;
+    font-weight: bold;
+    font-size: 4.5em;
+  }
+
+  .image{
+    margin: 7.5em auto 0 3.5em;
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .row {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 6% 0 0;
+    font-weight: bold;
+    font-size: 4.5em;
+  }
+
+  .image{
+    margin: 7.5em auto 0 3.5em;
+    width: 95%;
+  }
 }
 
 .sectionOneText {
   font-size: 17px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
-.image{
-  margin-top: 6.5rem;
-  margin-left: 3.5rem;
-  width: 80%;
-}
 
 /* Section Two start */

@@ -2,11 +2,33 @@ body {
   font-family: "Franklin Gothic", Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1{
+  font-size: 4.5vw;
+}
+
+h2{
+  font-size: 2.5vw;
+}
+
+h3{
   font-weight: bold;
+  font-size: 1.75vw;
+}
+
+h5{
+  font-size: 1.7vw;
+}
+
+p{
+  font-size: 1.2vw;
+  font-weight: normal;
 }
 
 /* Navigation Bar */
+.logo{
+  width: 4em;
+}
+
 .navbar-brand {
   color: white;
   margin-left: 10px;
@@ -20,27 +42,148 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* First section of the page */
-.row{
-  margin-left: 7.5rem;
-  margin-right: 7.5rem;
+@media only screen and (min-width: 1200px) {
+
+  .customRow{
+    margin-left: 5em;
+    margin-right: 3.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 8% 0 0;
+    font-weight: bold;
+  }
+
+  .image{
+    margin: 7.5em auto 0 5.5em;
+    width: 75%;
+  }
+
+  /* Section Two */
+  .sectionTwoText{
+    font-weight: lighter;
+    margin-left: 2em;
+  }
+
+  .sampleImage{
+    height: auto;
+    width: 45vw;
+    margin: 4em 4em 4em 0;
+  }
+
+  .midHeader{
+    font-weight: bold;
+    margin-top: 6em;
+  }
+
 }
 
-.hometext {
-  font-family: 'Work Sans', sans-serif;
-  margin: 8% 0 0;
-  font-weight: bold;
-  font-size: 4rem;
+@media only screen and (max-width:1200px) {
+
+  .customRow{
+    margin-left: 3.5em;
+    margin-right: 2.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 8% 0 0;
+    font-weight: bold;
+
+  }
+
+  .image{
+    margin: 7.5em auto 0 3.5em;
+    width: 75%;
+  }
+
+  /* Section Two start */
+  .sectionTwoText{
+    font-weight: lighter;
+    margin-left: 3.5em;
+  }
+
+  .sampleImage{
+    height: auto;
+    width: 45vw;
+    margin: 4em 4em 4em 0;
+  }
+
+  .midHeader{
+    font-weight: bold;
+    margin-top: 6em;
+  }
 }
 
-.sectionOneText {
-  font-size: 17px;
-  font-weight: lighter;
+@media only screen and (max-width:992px) {
+
+  .customRow{
+    margin-left: 3.5em;
+    margin-right: 2.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 6% 0 0;
+    font-weight: bold;
+
+  }
+
+  .image{
+    margin: 7.5em auto 0 3.5em;
+    width: 85%;
+  }
+
+  /* Section Two start */
+  .sectionTwoText{
+    font-weight: lighter;
+    margin-left: 3.5em;
+  }
+
+  .sampleImage{
+    height: auto;
+    width: 45vw;
+    margin: 4em 4em 4em 0;
+  }
+
+  .midHeader{
+    font-weight: bold;
+    margin-top: 6em;
+  }
 }
 
-.image{
-  margin-top: 6.5rem;
-  margin-left: 3.5rem;
-  width: 80%;
-}
+@media only screen and (max-width:768px) {
 
-/* Section Two start */
+  .customRow{
+    margin-left: 3.5em;
+    margin-right: 2.5em;
+  }
+
+  .hometext {
+    font-family: 'Work Sans', sans-serif;
+    margin: 6% 0 0;
+    font-weight: bold;
+  }
+
+  .image{
+    margin: 7.5em auto 0 3.5em;
+    width: 95%;
+  }
+
+  /* Section Two start */
+  .sectionTwoText{
+    font-weight: lighter;
+    margin-left: 3.5em;
+  }
+
+  .sampleImage{
+    height: auto;
+    width: 45vw;
+    margin: 4em 4em 4em 0;
+  }
+
+  .midHeader{
+    margin-top: 6em;
+  }
+}

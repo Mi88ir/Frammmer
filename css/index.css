@@ -68,13 +68,12 @@ p{
 
   .sampleImage{
     height: auto;
-    width: 45vw;
-    margin: 4em 4em 4em 0;
+    width: 40vw;
   }
 
   .midHeader{
     font-weight: bold;
-    margin-top: 6em;
+    margin-top: 10em;
   }
 
 }
@@ -106,13 +105,12 @@ p{
 
   .sampleImage{
     height: auto;
-    width: 45vw;
-    margin: 4em 4em 4em 0;
+    width: 40vw;
   }
 
   .midHeader{
     font-weight: bold;
-    margin-top: 6em;
+    margin-top: 10em;
   }
 }
 
@@ -143,13 +141,12 @@ p{
 
   .sampleImage{
     height: auto;
-    width: 45vw;
-    margin: 4em 4em 4em 0;
+    width: 40vw;
   }
 
   .midHeader{
     font-weight: bold;
-    margin-top: 6em;
+    margin-top: 8em;
   }
 }
 
@@ -179,11 +176,11 @@ p{
 
   .sampleImage{
     height: auto;
-    width: 45vw;
-    margin: 4em 4em 4em 0;
+    width: 40vw;
   }
 
   .midHeader{
-    margin-top: 6em;
+    font-weight: bold;
+    margin-top: 5em;
   }
 }

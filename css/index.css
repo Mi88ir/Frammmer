@@ -1,5 +1,5 @@
 body {
-  font-family: "Franklin Gothic", Arial, sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 h1{
@@ -22,6 +22,10 @@ h5{
 p{
   font-size: 1.2vw;
   font-weight: normal;
+}
+
+.lightBG{
+  background: #e6e6e6;
 }
 
 /* Navigation Bar */
@@ -183,4 +187,17 @@ p{
     font-weight: bold;
     margin-top: 5em;
   }
+}
+
+.vipCardHeader{
+  background: #3f3f3f;
+  color: white;
+}
+
+.imgVIP{
+  width: 50%;
+}
+
+.urlPaste{
+  max-width: 30%;
 }
